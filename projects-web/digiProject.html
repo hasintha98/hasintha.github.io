@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="../assets/css/swiper-bundle.min.css">
+
+        
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="../assets/css/styles.css">
+        <link rel="stylesheet" href="../assets/css/projects.css">
+
+        <title>Responsive Portfolio Website</title>
+    </head>
+    <body> 
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Hasintha</a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="../index.html#home" class="nav__link">
+                                <i class="uil uil-estate nav__icon"></i> Home
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="../index.html#about" class="nav__link">
+                                <i class="uil uil-user nav__icon"></i> About
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="../index.html#skills" class="nav__link">
+                                <i class="uil uil-file-info-alt nav__icon"></i> Skills
+                            </a>
+                        </li>
+                        <!-- <li class="nav__item">
+                            <a href="#services" class="nav__link">
+                                <i class="uil uil-bag-alt nav__icon"></i> Services
+                            </a>
+                        </li> -->
+                        <li class="nav__item">
+                            <a href="../index.html#projects" class="nav__link">
+                                <i class="uil uil-scenery nav__icon"></i> Projects
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="../index.html#contact" class="nav__link">
+                                <i class="uil uil-message nav__icon"></i> Contact me
+                            </a>
+                        </li>
+                    </ul>
+                    <i class="uil uil-times nav__close" id="nav-close"></i>
+                </div>
+                <div class="nav__btns">
+                    
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+                    
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-angle-double-up"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main class="main">
+            <section class="about section">
+                <h2 class="section__title">DiGi - Market</h2>
+                <span class="section__subtitle">Web application</span>
+
+                <div class="about__container container grid">
+                    <img src="../assets/img/digi-heading.jpg" alt="" class="project__img" />
+                    <div class="about__data">
+                        <!-- <p class="about__description">
+                            Web developer, with knowlege and years of expereince, working in web technologies and mobile developing quality work.
+                        </p> -->
+                        <div class="about__info">
+                            <span class="about__info-title">
+                               Tools & Technologies
+                            </span>
+                            
+                        </div>
+                        <div class="about__info">
+                            <div>
+                                <span class="about__info-title">
+                                    <img class="about__info-img" src="../assets//img/tools icons/react.png">
+                                 </span>
+                                <span class="about__info-name">React - Frontend <br> development</span>
+                            </div>
+                            <div> 
+                                <span class="about__info-title">
+                                    <img class="about__info-img" src="../assets//img/tools icons/redux.png">
+                                 </span>   
+                                <span class="about__info-name">Redux - State <br>management</span>
+                            </div>
+                        </div>
+                        <div class="about__info">
+                            <div>
+                                <span class="about__info-title">
+                                    <img class="about__info-img" src="../assets//img/tools icons/nodejs.png">
+                                 </span>  
+                                <span class="about__info-name">Node JS - Backend <br>development</span>
+                            </div>
+                            <div>
+                                <span class="about__info-title">
+                                    <img class="about__info-img" src="../assets//img/tools icons/mongo.png">
+                                 </span>  
+                                <span class="about__info-name">MongoDB - Database <br>management</span>
+                            </div>
+                            
+                         
+                        </div>
+              
+                    </div>
+                </div>
+                <div class="about__container container">
+                    <div class="about__data">
+                        <p class="about__description project__des" style="text-decoration: underline; margin-top: 1rem;">Description</p>
+                        <p class="about__description project__des">
+                            The goal of this initiative is to create a Sri Lankan marketplace where digital media producers and consumers may meet and transact. For this reason, a website and mobile application are being developed. They can construct their own customer and creator profiles in the marketplace. Creators can include information about their current and prior projects, as well as their professional backgrounds and accomplishments. A wide range of options are available to buyers. Service requests or queries can be made by the customers themselves and the producers can put together a customized package of services. Customers can place orders on the company's website or mobile app. Payments can be made using the website or the mobile app. Instant message is available through the website and mobile app. Customers are able to make revives and rate the services provided by the creators. And I would like to add more functions to the system in the future.
+                        </p>
+                      
+                    </div>
+                    <div class="about__data">
+                        <p class="about__description project__des" style="text-decoration: underline;">
+                        User Interfaces  
+                        </p>
+                      
+                    </div>
+                </div>
+                <div class="portfolio__container container swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <!--==================== PORTFOLIO 1 ====================-->
+                        <div class="swiper-slide">
+                            <img src="../assets/img/Digi UI/1.png" alt="" class="portfolio__content grid">
+                      
+                        </div>
+                        <!--==================== PORTFOLIO 1 ====================-->
+                        <div class="swiper-slide">
+                            <img src="assets/img/Digi UI/2.png" alt="" class="portfolio__content grid">
+                         
+                        </div>
+                         <!--==================== PORTFOLIO 2 ====================-->
+                         <div class="swiper-slide">
+                            <img src="../assets/img/Digi UI/3.png" alt="" class="portfolio__content grid">
+                         
+                        </div>
+                         <!--==================== PORTFOLIO 3 ====================-->
+                         <div class=" swiper-slide">
+                            <img src="../assets/img/Digi UI/4.png" alt="" class="portfolio__content grid">
+                        
+                        </div>
+                         <!--==================== PORTFOLIO 5 ====================-->
+                         <div class="swiper-slide">
+                            <img src="../assets/img/Digi UI/5.png" alt="" class="portfolio__content grid">
+                         
+                        </div>
+                        <!--==================== PORTFOLIO 6 ====================-->
+                        <div class="swiper-slide">
+                            <img src="../assets/img/Digi UI/6.png" alt="" class="portfolio__content grid">
+                         
+                        </div>
+                        <!--==================== PORTFOLIO 7 ====================-->
+                        <div class="swiper-slide">
+                            <img src="../assets/img/Digi UI/7.png" alt="" class="portfolio__content grid">
+                         
+                        </div>
+                        <!--==================== PORTFOLIO 8 ====================-->
+                        <div class="swiper-slide">
+                            <img src="../assets/img/Digi UI/8.png" alt="" class="portfolio__content grid">
+                         
+                        </div>
+                        <!--==================== PORTFOLIO 9 ====================-->
+                        <div class="swiper-slide">
+                            <img src="../assets/img/Digi UI/9.png" alt="" class="portfolio__content grid">
+                         
+                        </div>
+                        <!--==================== PORTFOLIO 10 ====================-->
+                        <div class="swiper-slide">
+                            <img src="../assets/img/Digi UI/10.png" alt="" class="portfolio__content grid">
+                         
+                        </div>
+                        <!--==================== PORTFOLIO 11 ====================-->
+                        <div class="swiper-slide">
+                            <img src="../assets/img/Digi UI/11.png" alt="" class="portfolio__content grid">
+                         
+                        </div>
+                        <!--==================== PORTFOLIO 12 ====================-->
+                        <div class="swiper-slide">
+                            <img src="../assets/img/Digi UI/12.png" alt="" class="portfolio__content grid">
+                         
+                        </div>
+                        <!--==================== PORTFOLIO 13 ====================-->
+                        <div class="swiper-slide">
+                            <img src="../assets/img/Digi UI/13.png" alt="" class="portfolio__content grid">
+                         
+                        </div>
+                        <!--==================== PORTFOLIO 14 ====================-->
+                        <div class="swiper-slide">
+                            <img src="../assets/img/Digi UI/14.png" alt="" class="portfolio__content grid">
+                         
+                        </div>
+                        <!--==================== PORTFOLIO 15 ====================-->
+                        <div class="swiper-slide">
+                            <img src="../assets/img/Digi UI/15.png" alt="" class="portfolio__content grid">
+                         
+                        </div>
+                        <!--==================== PORTFOLIO 16 ====================-->
+                        <div class="swiper-slide">
+                            <img src="../assets/img/Digi UI/16.png" alt="" class="portfolio__content grid">
+                         
+                        </div>
+                        
+                 
+                    </div>
+                   
+                    <!-- add arrows -->
+                    <div class="swiper-button-next">
+                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="uil uil-angle-left swiper-portfolio-icon"></i>
+                    </div>
+
+                    <!-- add pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+                <div class="about__container container">
+                    <div class="about__data">
+                        <p class="about__description project__des" style="text-decoration: underline; margin-top: 2rem;">Aim</p>
+                        <p class="about__description project__des">
+                            The aim of this project is to create a Sri Lankan marketplace for digital media creators to introduce their services to clients and it helps clients to find creators, services and connect with each other in one place. On Other hand, it helps to consult, optimize, advertise, and promote brands, services, and many other things to target audiences and reach more people. Reduce spending money on paid advertising platforms and reduce the intermediates partnerships and services. </p>
+                       
+                    </div>
+                </div>
+        
+            </section>
+           <!--==================== PORTFOLIO ====================-->
+           <section class="portfolio section" id="portfolio">
+            <h2 class="section__title">My Other Projects</h2>
+            <span class="section__subtitle">Most recent works</span>
+
+            <div class="portfolio__container container swiper mySwiper">
+                <div class="swiper-wrapper">
+                
+                    <!--==================== PORTFOLIO 1 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="../assets/img/photo-editor-heading.jpg" alt="" class="portfolio__content grid">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">SPEDP</h3>
+                            <p class="portfolio__description">Smart photo edito for disabled people, interaction using user's face gestures</p>
+                            <a href="./smeProject.html" class="button button--flex button--small portfolio__button">
+                               More  <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                     <!--==================== PORTFOLIO 2 ====================-->
+                     <div class="portfolio__content grid swiper-slide">
+                        <img src="../assets/img/Bella fashion UI/FB_IMG_1639125806892.jpg" alt="" class="portfolio__content grid">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title"> Bella fashion</h3>
+                            <p class="portfolio__description">a full-stack (MERN) web application for an onlineshopping E-commerce platform.
+                                </p>
+                            <a href="./bellaProject.html" class="button button--flex button--small portfolio__button">
+                               More  <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                     <!--==================== PORTFOLIO 3 ====================-->
+                     <div class="portfolio__content grid swiper-slide">
+                        <img src="../assets/img/Information managment/suren-cooke-heading.jpg" alt="" class="portfolio__content grid">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Information Management System</h3>
+                            <p class="portfolio__description">a web application to manage entities of Suren Cooke Agencies (Pvt) Ltd.</p>
+                            <a href="./surenProject.html" class="button button--flex button--small portfolio__button">
+                               More  <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                     <!--==================== PORTFOLIO 4 ====================-->
+                     <div class="portfolio__content grid swiper-slide">
+                        <img src="../assets/img/Estock UI/heading-estock.jpg" alt="" class="portfolio__content grid">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title"> Online Shopping Mobile Application</h3>
+                            <p class="portfolio__description">a mobile application for an Online Shopping platform where the users can sell and buy goods conveniently.</p>
+                            <a href="./estockProject.html" class="button button--flex button--small portfolio__button">
+                               More  <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+             
+                </div>
+               
+                <!-- add arrows -->
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left swiper-portfolio-icon"></i>
+                </div>
+
+                <!-- add pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+            
+
+        </section>    
+         <!--==================== FOOTER ====================-->
+         <footer class="footer">
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                    <div>
+                        <h1 class="footer__title">Hasintha Doluweera</h1>
+                        <span class="footer__subtitle">Software engineer / developer</span>
+                    </div>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="../index.html#home" class="footer__link">Home</a>
+                        </li>
+                        <li>
+                            <a href="../index.html#portfolio" class="footer__link">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="../index.html#contact" class="footer__link">Contact</a>
+                        </li>
+                    </ul>
+
+                    <div class="footer__socials">
+                        <a href="https://www.linkedin.com/in/hasintha-doluweera-14a953225/" target="_blank" class="footer__social">
+                            <i class="uil uil-linkedin"></i>
+                        </a>
+                        <a href="https://www.instagram.com/hasin__98/" target="_blank" class="footer__social">
+                            <i class="uil uil-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <p class="footer__copy">&#169; Hasintha. All right reserved</p>
+            </div>
+            
+        </footer>
+    
+                    <!--==================== SCROLL TOP ====================-->
+        <a href="#" class="scrollup" id="scroll-up"><i class="uil uil-arrow-up scrollup__icon"></i></a>
+
+        <!--==================== SWIPER JS ====================-->
+        <script src="../assets/js/swiper-bundle.min.js"></script>
+        
+
+        <!--==================== MAIN JS ====================-->
+        <script src="../assets/js/main.js"></script>
+        </main>
+</body>
+</html>

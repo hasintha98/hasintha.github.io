@@ -1,0 +1,21 @@
+.project__img {
+    width: 500px;
+    border-radius: 2%;
+    justify-self:center;
+    align-self: center;
+
+
+}
+
+.about__info-img {
+width: 40px;
+}
+
+.project__des {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.mySwiper {
+    margin-bottom: 1.5rem;
+}
